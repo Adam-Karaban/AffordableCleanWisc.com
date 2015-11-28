@@ -1,0 +1,252 @@
+/*All Navigation CSS*/
+
+.navbar-inverse {
+  background: -webkit-linear-gradient(#37B700, #35970B);
+  background: -moz-linear-gradient(#37B700, #35970B);
+  background: -ms-linear-gradient(#37B700, #35970B);
+  background: -o-linear-gradient(#37B700, #35970B);
+  background: linear-gradient(#37B700, #35970B);
+  border-color: #001200;
+  margin: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #2C9500;
+}
+
+.navbar-brand {
+  font-family: 'Playball', cursive;
+  font-size: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-text {
+  color: white;
+  margin-right: 1px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: -webkit-linear-gradient(#2D8109, #2C9500);
+  background: -moz-linear-gradient(#2D8109, #2C9500);
+  background: -ms-linear-gradient(#2D8109, #2C9500);
+  background: -o-linear-gradient(#2D8109, #2C9500);
+  background: linear-gradient(#2D8109, #2C9500);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  background: -webkit-linear-gradient(#2D8109, #2C9500);
+  background: -moz-linear-gradient(#2D8109, #2C9500);
+  background: -ms-linear-gradient(#2D8109, #2C9500);
+  background: -o-linear-gradient(#2D8109, #2C9500);
+  background: linear-gradient(#2D8109, #2C9500);
+}
+
+/*Jumbotron CSS*/
+
+.jumbotron {
+  background: url("../images/jumbotron.png") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -ms-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  height: 250px;
+  padding: 10px;
+}
+
+.jumbotron h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-size: 54px;
+}
+
+/*Content CSS*/
+
+.centered {
+  text-align: center;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  font-family: 'Noto Serif', serif;
+  color: #176E00;
+  font-weight: bold;
+}
+
+.offersList {
+  margin-bottom: 15px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.servicesList {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  background: #2D8109;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  margin: 10px;
+  padding-top: 5px;
+}
+
+.fullServicesList {
+  font-size: 16px;
+}
+
+.boxOfInfo {
+  height: 270px;
+}
+
+.extraMargin {
+  margin-top: 50px;
+}
+
+#cleaningPic {
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#whyList {
+  font-size: 18px;
+}
+
+#contactPhrase {
+  margin-top: 50px;
+}
+
+#saveMoney {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.centerText {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#coupons {
+  border: 2px solid #2D8109;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+/*footer CSS*/
+
+.footer {
+  background: -webkit-linear-gradient(#4C4C4C, #3D3D3D);
+  background: -moz-linear-gradient(#4C4C4C, #3D3D3D);
+  background: -ms-linear-gradient(#4C4C4C, #3D3D3D);
+  background: -o-linear-gradient(#4C4C4C, #3D3D3D);
+  background: linear-gradient(#4C4C4C, #3D3D3D);
+}
+
+.marginFooter {
+  margin-top: 25px;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+.copyright {
+  color: #B7B7B7;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+}
+
+/*All Media queries that were not included in my Bootstrap needs*/
+
+@media(max-width:992px){
+    .jumbotron{
+        height: 200px;   
+    }
+    .jumbotron h1{
+        font-size: 38px;
+    }
+    #contactPhrase{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .jumbotron{
+        height: 150px;   
+    }
+    .jumbotron h1{
+        font-size: 28px;
+    } 
+}
+
+@media screen and (max-width:600px){
+    .smallGrid{
+        width: 100%;
+    }
+    .servicesList{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .jumbotron{
+        height: 100px;   
+    }
+    .jumbotron h1{
+        font-size: 22px;
+        margin: 5px;
+    }
+    #contactPhrase{
+        margin-top: 50px;
+    }   
+}
